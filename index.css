@@ -250,7 +250,9 @@ font-weight: 400;
 line-height: 26px; /* 173.333% */
 }
 @media (max-width: 768px) {
- 
+  div.containers {
+    overflow: hidden;
+  }
   div.navlink {
     display: none;
   }
